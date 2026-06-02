@@ -5,7 +5,7 @@ Python language support for [RepoNova](https://github.com/CristianoCiuti/reponov
 ## Install
 
 ```bash
-reponova lang add python
+reponova lang add @reponova/lang-python
 ```
 
 ## What it provides

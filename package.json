@@ -28,5 +28,11 @@
     "id": "python",
     "extensions": [".py", ".pyw"],
     "grammar": "./grammars/tree-sitter-python.wasm"
-  }
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CristianoCiuti/reponova-lang-python.git"
+  },
+  "homepage": "https://github.com/CristianoCiuti/reponova-lang-python"
 }

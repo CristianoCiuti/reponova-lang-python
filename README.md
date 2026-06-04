@@ -1,33 +1,35 @@
 # @reponova/lang-python
 
-Python language support for [RepoNova](https://github.com/CristianoCiuti/reponova).
+> **THIS REPOSITORY HAS BEEN ARCHIVED.**
+>
+> Source has moved to the [**reponova-langs** monorepo](https://github.com/CristianoCiuti/reponova-langs).
 
-## Install
+## Where to go now
+
+| What you are looking for | Where it lives now |
+|---|---|
+| Source code | [reponova-langs/packages/lang-python](https://github.com/CristianoCiuti/reponova-langs/tree/main/packages/lang-python) |
+| Open an issue | [reponova-langs/issues](https://github.com/CristianoCiuti/reponova-langs/issues) |
+| Open a pull request | [reponova-langs/pulls](https://github.com/CristianoCiuti/reponova-langs/pulls) |
+| Releases / changelog | [reponova-langs/releases](https://github.com/CristianoCiuti/reponova-langs/releases) |
+| npm package | [@reponova/lang-python](https://www.npmjs.com/package/@reponova/lang-python) (same package name, same install command) |
+
+## Nothing changes for end users
+
+The npm package `@reponova/lang-python` is **still maintained and published** from the new monorepo. Install and usage are unchanged:
 
 ```bash
 reponova lang add @reponova/lang-python
 ```
 
-## What it provides
-
-- **Extraction**: Functions, classes, methods, decorators, docstrings, variables, imports, calls, inheritance
-- **Outline**: Tree-sitter AST outline with regex fallback
-- **Grammar**: `tree-sitter-python.wasm`
-
-## Extensions
-
-`.py`, `.pyw`
-
-## Configuration
-
-In `reponova.yml`:
-
 ```yaml
 plugins:
   python:
-    enabled: true       # default: true
-    # patterns: []      # override global patterns for Python files
-    # exclude: []       # override global exclude for Python files
+    enabled: true
 ```
 
-No custom properties — Python extraction works out of the box with no additional config.
+Only the source repository has moved.
+
+---
+
+This repository is kept read-only to preserve commit history, issue history, and incoming links from npm 0.1.x.
